@@ -3,8 +3,7 @@ import './Webtoon.css'; //나중에 여기 주소 잘 맞나 실행해보고 확
 
 
 
-const Webtoon =  ({thumbnail,title,writer,genre,platform})=>{
-   
+function Webtoon({thumbnail,title,writer,genre,platform}){    
   
    
     return (

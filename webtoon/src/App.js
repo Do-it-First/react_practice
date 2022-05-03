@@ -5,7 +5,7 @@ import Page1 from './component/Page1';
 import Page2 from './component/Page2';
 import Page3 from './component/Page3';
 import {
-  HashRouter, Switch, Route,
+  BrowserRouter, Switch, Route,
 } from "react-router-dom";
 import axios from 'axios';
 
@@ -22,7 +22,7 @@ function App() {
   return (
     <div>
 
-     <HashRouter>
+     <BrowserRouter>
       <Switch>
 
         <Route path="/" exact={true} component={Page1}>
@@ -31,13 +31,13 @@ function App() {
         </Route>
 
         <Route path="/detail/1" component={Page2}> 
-          {/* <Page2 키워드={키워드}/>
-          2번째 페이지 입니다 */}
+          <Page2 키워드={키워드}/>
+          2번째 페이지 입니다
 
         </Route>     
 
         <Route path="/detail/2" component={Page3} > 
-          {/* <Page3/> 3번째 페이지입니다. */}
+          <Page3/> 3번째 페이지입니다.
         </Route>   
 
 
@@ -47,7 +47,7 @@ function App() {
 
         </Route> 
       </Switch>
-    </HashRouter> 
+    </BrowserRouter> 
 
 
   </div>    
