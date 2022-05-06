@@ -12,12 +12,9 @@ import axios from 'axios';
 
 
 
-
-
 function App() {
   
   const [키워드,키워드변경] = useState("");
-
 
   return (
     <div>

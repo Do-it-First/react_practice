@@ -1,4 +1,4 @@
-.Page1 {
+/* .Page1 {
   text-align: center;
 }
 body{
@@ -17,8 +17,13 @@ text-align: center;
 }
 body{
 text-align: center;
-}
+} */
 
+
+.goplatform{
+  text-align: left;
+  margin-left: 100px;
+}
 
 .searchBar{
     border:2px solid blue;
@@ -47,12 +52,12 @@ text-align: center;
     width: 80%;
     background-color: rgb(213, 203, 203);
     text-align: left;
-    margin-left: 50px;
+    margin-left: 100px;
 
   }
 
 .goplatform{
-    margin-top: 100px;
+    margin-top: 10px;
   }
 .btn-go{
   border:2px solid rgb(162, 194, 209);
@@ -60,9 +65,9 @@ text-align: center;
   padding: 10px;
   font-size: 15px;
   border-radius: 5px;
-  width: 15%;
+  width: 300px;
   background: rgb(179, 209, 223);
-  margin-left: 50px;
+  margin-left: 100px;
   
 
 }

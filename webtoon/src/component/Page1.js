@@ -18,10 +18,7 @@ function Page1(props){
             <HomeLogo/>
             <SearchBar 키워드={props.키워드}/>
 
-            {/* <div className='aftersearch'> */}
 
-{/* 
-            </div> */}
 
             
 

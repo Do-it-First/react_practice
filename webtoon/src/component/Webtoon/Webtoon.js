@@ -8,11 +8,15 @@ function Webtoon({thumbnail,title,writer,genre,platform}){
    
     return (
         <div className='one-webtoon'>
-            <img src={thumbnail} alt="썸네일"/>
-            <div> 제목:{title}</div>
-            <div> 작가:{writer}</div>
-            <div> 연재처:{platform}</div>
-            <div> 키워드:{genre}</div>
+          
+            <div className='w-image'>
+              <img src={thumbnail} alt="썸네일"/> 
+            </div>    
+            <div className='w-title'> 제목:{title}</div>
+            <div className='w-writer'> 작가:{writer}</div>
+            <div className='w-platform'> 연재처:{platform}</div>
+            <div className='w-keyword'> 키워드:{genre}</div>
+          
 
 
         </div>

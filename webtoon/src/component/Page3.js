@@ -3,6 +3,11 @@ import Webtoon from './Webtoon/Webtoon';
 import SearchBar from './SearchBar';
 import HomeLogo from './HomeLogo';
 import './Component.css';
+import {Button} from 'react-bootstrap';
+import axios from 'axios'
+
+import {useHistory} from 'react-router-dom';
+
 
 
 
@@ -52,16 +57,18 @@ function Introduction(){
 function Goplatform(){
     return(
         <div className='goplatform'>
-           {/* <button   onClick={  ()=>{}     }> 
-           작품보러가기
-           </button> */}
-            <div className='btn-go'> 작품보러가기 </div>      
+            <Button variant="primary">작품 보러가기</Button>
+            {/* <div className='btn-go'> 작품보러가기 </div>       */}
 
         </div>
     )
 }
 
 
+// function 작품보러가기(){
+    
+//     return
+// }
 
 
-export default Page3
+export default Page3;

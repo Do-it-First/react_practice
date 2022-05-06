@@ -5,6 +5,7 @@ import HomeLogo from './HomeLogo';
 import './Component.css';
 
 
+
 function Page2(props){
 
 
@@ -14,13 +15,31 @@ function Page2(props){
 
 
         <div>
+
+
             <HomeLogo/>
         
             <SearchBar 키워드 = {props.키워드}/>
+{/* 
+            <Container>
+                <Row>
+                    <Col> <Webtoon/> </Col>
+                    <Col> <Webtoon/> </Col>
+                </Row>
+            </Container> */}
 
+            {/* <div class="container"> */}
+                <div class="row">
+                    
+                     <Webtoon/>
+                     <Webtoon/>
+                     <Webtoon/>
+                     <Webtoon/>
+                    
+                </div>    
+            {/* </div>         */}
 
-
-            <Webtoon/>  
+            {/* <Webtoon/>   */}
 
 
          </div>
